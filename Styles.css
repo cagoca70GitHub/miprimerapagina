@@ -239,6 +239,13 @@ padding: 10px;
     background-color: #407fc7;
   }
 
+/* GREETING */
+
+.greeting {
+    font-size: xx-large;
+    padding: 1cm;
+    background-color: #37bd63;
+}
 /* Footer */
 footer {
     background-color: #22211f;
