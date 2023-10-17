@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMERA WEB</title>
+    <script src="https://kit.fontawesome.com/fe35256615.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="Index.html"><i class="fa-solid fa-heart"></i></a>
+      <nav> 
+        <div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+        </div>
+        <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="menu">
+          <li><a href="Index.html">Inicio</a></li><!--Ejemplo de comentario en HTML-->
+          <li><a href="#seccion-principal">Acerca de mi</a></li>
+          <li><a href="#trabajos">Trabajos</a></li>
+          <li><a href="Index.html">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main id="seccion-principal">
+      <section class="seccion-1">
+        <div class="acerca-de">
+          <h2>Acerca de mi</h2>
+          <p class="parrafo1">!Bienvenido a mi Página web! Aqui, aprenderas más sobre mi.</p>
+          <p class="parrafo2">Me llamo Carlos Alberto González , nací en Bogotá Colombia. Me gusta mucho cocinar y compartir con mi familia y amigos.</p>
+        </div>
+        <div class="acerca-imagen">
+          <img src="Img/Foto_CAGC.jpg" alt="Mi Foto_CAGC">
+        </div>
+      </section>
+      <section class="seccion-2">
+        <img src="Img/Img-Fondo.png" alt="Imagen Fondo">
+      </section>
+      <section class="seccion-3">
+        <p>Trabajos</p>
+        <div>
+        <img src="Img/Img-Trabajos.png" alt="Imagen Trabajos">
+        <img src="Img/Img-Trabajos.png" alt="Imagen Trabajos">
+        <img src="Img/Img-Trabajos.png" alt="Imagen Trabajos">
+        </div>
+        <div>
+          <p>Titulo 1</p>
+          <p>Titulo 2</p>
+          <p>Titulo 3</p>
+        </div>
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, officia excepturi aperiam recusandae repellendus odit repellat quo asperiores iure totam facilis in dicta illum aliquid eligendi, soluta temporibus nam error.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vitae amet, tempore est earum tenetur unde eligendi quae totam? Laboriosam deserunt aperiam aspernatur optio perferendis tempore necessitatibus vel, neque delectus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima veritatis dicta corrupti delectus odio cupiditate eius enim adipisci! Reprehenderit laudantium magnam expedita voluptatibus suscipit dignissimos, placeat maxime consectetur iusto sapiente!</p>
+        </div>
+      </section>
+      <section class="form-header">
+          <h1>Contacto</h1>
+          <p><em>¡Esperamos tu consulta!</em></p>
+    
+          <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="pepe@gmail.com"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+              </div>
+              <div class="form-row">
+                <button>Enviar</button>
+              </div>
+              <p class="alertas" id="alertas"></p>
+          </form>
+       </section>
+    </main>
+    <footer id="contacto">
+      <div id="footer">
+        <a href="https://egg.live/">
+          <i class="fa-solid fa-heart fixed"
+          style="color: #ebcb00;"></i>
+        </a>
+        <h3 class="fuente-acento">Contacto</h3>
+      </div>
+      <nav>
+      <ul>
+        <li>Instagram</li>
+        <li>TikTok</li>
+        <li>Whatsapp</li>
+      </ul>
+    </nav>
+    </footer>
+  </body>
+</html>
